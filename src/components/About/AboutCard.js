@@ -7,16 +7,16 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
+          <p style={{textAlign: "justify"}}>
+            Hi Everyone, I am <span className="purple">Toan Ngo (tommitoan) </span>
+            from <span className="purple"> Ho Chi Minh City, Vietnam.</span>
+            <br/>
+            I am currently employed as a Golang developer at <a href="https://gtgsoft.com/" target="_blank" rel="noopener noreferrer" className="purple-none">GTG Software</a>.
+            <br/>
+            I specialize in Golang, cloud infrastructure, and API development, and I'm passionate about building
+            user-centric software.
+            <br/>
+            <br/>
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
@@ -24,17 +24,18 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Watching Movies
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{color: "rgb(155 126 172)"}}>
+            "Ex-landscape architect, current developer.<br/>
+            Still growing things, just in a different way. "{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">tommitoan</footer>
         </blockquote>
       </Card.Body>
     </Card>

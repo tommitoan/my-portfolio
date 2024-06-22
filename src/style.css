@@ -18,6 +18,11 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.purple-none {
+  color: var(--imp-text-color) !important;
+  text-decoration: none;
+}
+
 button:focus {
   box-shadow: none !important;
 }

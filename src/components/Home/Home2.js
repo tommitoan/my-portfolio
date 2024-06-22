@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram, AiFillFacebook, AiOutlineYoutube, AiFillYoutube, AiFillContacts, AiFillApi, AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -22,33 +22,26 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I'm an entry Software Engineer proficient in
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Golang, cloud infrastructure, and API development. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              With nearly a year of experience building scalable applications, I bring a <b className="purple">unique </b>
+              perspective honed by a&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">background in design. </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I'm eager to leverage my technical skills and passion for <b className="purple">problem-solving </b>
+               to create
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  innovative, user-centric software solutions.
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
@@ -67,42 +60,52 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                    href="mailto:tommitoan1995@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillMail/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                    href="https://www.linkedin.com/in/toan-ngo-1a7b25151/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaLinkedinIn/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                    href="https://github.com/tommitoan"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <AiFillGithub/>
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                    href="https://www.facebook.com/tommitoan1995/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillFacebook/>
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="https://www.youtube.com/@727GamingStudio"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <AiFillYoutube/>
                 </a>
               </li>
             </ul>
@@ -112,4 +115,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
